@@ -1,0 +1,143 @@
+Started by GitHub push by seraphin
+Building in workspace /var/lib/jenkins/workspace/ansible-hadoop
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rackerlabs/ansible-hadoop # timeout=10
+Fetching upstream changes from https://github.com/rackerlabs/ansible-hadoop
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/rackerlabs/ansible-hadoop +refs/pull/*:refs/remotes/origin/pr/* +refs/heads/master:refs/remotes/origin/master
+Seen branch in repository origin/adding-aws
+Seen branch in repository origin/arcadia
+Seen branch in repository origin/aws
+Seen branch in repository origin/cloudera
+Seen branch in repository origin/jenkins-test
+Seen branch in repository origin/master
+Seen branch in repository origin/pr/1/head
+Seen branch in repository origin/pr/10/head
+Seen branch in repository origin/pr/100/head
+Seen branch in repository origin/pr/100/merge
+Seen branch in repository origin/pr/101/head
+Seen branch in repository origin/pr/101/merge
+Seen branch in repository origin/pr/102/head
+Seen branch in repository origin/pr/102/merge
+Seen branch in repository origin/pr/103/head
+Seen branch in repository origin/pr/103/merge
+Seen branch in repository origin/pr/11/head
+Seen branch in repository origin/pr/12/head
+Seen branch in repository origin/pr/13/head
+Seen branch in repository origin/pr/14/head
+Seen branch in repository origin/pr/15/head
+Seen branch in repository origin/pr/16/head
+Seen branch in repository origin/pr/17/head
+Seen branch in repository origin/pr/18/head
+Seen branch in repository origin/pr/19/head
+Seen branch in repository origin/pr/2/head
+Seen branch in repository origin/pr/20/head
+Seen branch in repository origin/pr/21/head
+Seen branch in repository origin/pr/22/head
+Seen branch in repository origin/pr/23/head
+Seen branch in repository origin/pr/24/head
+Seen branch in repository origin/pr/25/head
+Seen branch in repository origin/pr/26/head
+Seen branch in repository origin/pr/27/head
+Seen branch in repository origin/pr/28/head
+Seen branch in repository origin/pr/29/head
+Seen branch in repository origin/pr/3/head
+Seen branch in repository origin/pr/30/head
+Seen branch in repository origin/pr/31/head
+Seen branch in repository origin/pr/32/head
+Seen branch in repository origin/pr/33/head
+Seen branch in repository origin/pr/34/head
+Seen branch in repository origin/pr/35/head
+Seen branch in repository origin/pr/36/head
+Seen branch in repository origin/pr/37/head
+Seen branch in repository origin/pr/38/head
+Seen branch in repository origin/pr/39/head
+Seen branch in repository origin/pr/40/head
+Seen branch in repository origin/pr/40/merge
+Seen branch in repository origin/pr/41/head
+Seen branch in repository origin/pr/42/head
+Seen branch in repository origin/pr/43/head
+Seen branch in repository origin/pr/44/head
+Seen branch in repository origin/pr/45/head
+Seen branch in repository origin/pr/46/head
+Seen branch in repository origin/pr/48/head
+Seen branch in repository origin/pr/49/head
+Seen branch in repository origin/pr/5/head
+Seen branch in repository origin/pr/50/head
+Seen branch in repository origin/pr/51/head
+Seen branch in repository origin/pr/52/head
+Seen branch in repository origin/pr/52/merge
+Seen branch in repository origin/pr/53/head
+Seen branch in repository origin/pr/54/head
+Seen branch in repository origin/pr/55/head
+Seen branch in repository origin/pr/56/head
+Seen branch in repository origin/pr/57/head
+Seen branch in repository origin/pr/58/head
+Seen branch in repository origin/pr/59/head
+Seen branch in repository origin/pr/60/head
+Seen branch in repository origin/pr/61/head
+Seen branch in repository origin/pr/62/head
+Seen branch in repository origin/pr/62/merge
+Seen branch in repository origin/pr/63/head
+Seen branch in repository origin/pr/64/head
+Seen branch in repository origin/pr/65/head
+Seen branch in repository origin/pr/66/head
+Seen branch in repository origin/pr/67/head
+Seen branch in repository origin/pr/68/head
+Seen branch in repository origin/pr/69/head
+Seen branch in repository origin/pr/7/head
+Seen branch in repository origin/pr/70/head
+Seen branch in repository origin/pr/72/head
+Seen branch in repository origin/pr/73/head
+Seen branch in repository origin/pr/74/head
+Seen branch in repository origin/pr/76/head
+Seen branch in repository origin/pr/77/head
+Seen branch in repository origin/pr/78/head
+Seen branch in repository origin/pr/79/head
+Seen branch in repository origin/pr/8/head
+Seen branch in repository origin/pr/80/head
+Seen branch in repository origin/pr/81/head
+Seen branch in repository origin/pr/82/head
+Seen branch in repository origin/pr/83/head
+Seen branch in repository origin/pr/84/head
+Seen branch in repository origin/pr/85/head
+Seen branch in repository origin/pr/86/head
+Seen branch in repository origin/pr/87/head
+Seen branch in repository origin/pr/88/head
+Seen branch in repository origin/pr/89/head
+Seen branch in repository origin/pr/89/merge
+Seen branch in repository origin/pr/90/head
+Seen branch in repository origin/pr/91/head
+Seen branch in repository origin/pr/92/head
+Seen branch in repository origin/pr/94/head
+Seen branch in repository origin/pr/95/head
+Seen branch in repository origin/pr/95/merge
+Seen branch in repository origin/pr/96/head
+Seen branch in repository origin/pr/96/merge
+Seen branch in repository origin/pr/97/head
+Seen branch in repository origin/pr/97/merge
+Seen branch in repository origin/pr/98/head
+Seen branch in repository origin/pr/98/merge
+Seen branch in repository origin/pr/99/head
+Seen branch in repository origin/pr/99/merge
+Seen branch in repository origin/unbound-support
+Seen 116 remote branches
+Checking out Revision ebc08ff844c2f15247f807c4c47433c285ce3f8b (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ebc08ff844c2f15247f807c4c47433c285ce3f8b
+ > git rev-list 56ef8a44902c052a176d38da8af70acafc3d3ce2 # timeout=10
+Triggering ansible-hadoop » CentOS7,HDP2.4.3
+ansible-hadoop » CentOS7,HDP2.4.3 completed with result FAILURE
+Triggering ansible-hadoop » CentOS7,HDP2.5.3
+ansible-hadoop » CentOS7,HDP2.5.3 completed with result FAILURE
+Triggering ansible-hadoop » CentOS6,HDP2.5.3
+ansible-hadoop » CentOS6,HDP2.5.3 completed with result FAILURE
+Triggering ansible-hadoop » CentOS6,HDP2.4.3
+ansible-hadoop » CentOS6,HDP2.4.3 completed with result FAILURE
+Triggering ansible-hadoop » Ubuntu,HDP2.4.3
+ansible-hadoop » Ubuntu,HDP2.4.3 completed with result FAILURE
+Triggering ansible-hadoop » Ubuntu,HDP2.5.3
+ansible-hadoop » Ubuntu,HDP2.5.3 completed with result FAILURE
+Finished: FAILURE
